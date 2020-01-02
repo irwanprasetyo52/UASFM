@@ -208,16 +208,16 @@ class GuestPage extends State<GuestActivity>{
           Positioned.fill(
             child: Container(
               padding: EdgeInsets.all(8.0),
-              color: Colors.brown.shade200,
+              color: Colors.lightBlue,
               child: Card(
                 elevation: 4.0,
-                color: Colors.brown.shade100,
+                color: Colors.white,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(
                     Radius.circular(8.0),
                   ),
                   side: BorderSide(
-                    color: Colors.brown.shade400,
+                    color: Colors.black,
                     width: 1.0,
                     style: BorderStyle.solid,
                   ),
@@ -231,7 +231,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -270,7 +270,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -315,7 +315,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -359,7 +359,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -403,7 +403,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -450,7 +450,7 @@ class GuestPage extends State<GuestActivity>{
                         decoration: BoxDecoration(
                           border: Border(
                             bottom: BorderSide(
-                              color: Colors.brown.shade600,
+                              color: Colors.black,
                               width: 1,
                               style: BorderStyle.solid,
                             ),
@@ -505,10 +505,10 @@ class GuestPage extends State<GuestActivity>{
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: saveGuest,
-        backgroundColor: Colors.brown.shade200,
+        backgroundColor: Colors.blue,
         tooltip: 'Tambah Acara',
         child: Icon(Icons.save,
-          color: Colors.black45,
+          color: Colors.white,
         ),
       ),
     );

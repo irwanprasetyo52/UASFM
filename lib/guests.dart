@@ -76,7 +76,7 @@ class GuestsPage extends State<GuestsActivity> {
     return Card(
       elevation: 4.0,
       child: Material(
-        color: Colors.brown.shade400,
+        color: Colors.lightBlue,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(
             Radius.circular(6.0),
@@ -98,7 +98,7 @@ class GuestsPage extends State<GuestsActivity> {
                 padding: EdgeInsets.all(2.0),
                 child: Icon(
                   Icons.person,
-                  color: Colors.grey.shade800,
+                  color: Colors.black,
                   size: 36.0,
                 ),
               ),
@@ -106,7 +106,7 @@ class GuestsPage extends State<GuestsActivity> {
                 child: Container(
                   padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
                   decoration: BoxDecoration(
-                    color: Colors.brown.shade200,
+                    color: Colors.lightBlue,
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -118,7 +118,7 @@ class GuestsPage extends State<GuestsActivity> {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 16.0,
-                                color: Colors.black54,
+                                color: Colors.black,
                               ),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
@@ -139,7 +139,7 @@ class GuestsPage extends State<GuestsActivity> {
                             child: Padding(
                               padding: EdgeInsets.all(4.0),
                               child: Icon(Icons.delete,
-                                color: Colors.black45,
+                                color: Colors.black,
                               ),
                             ),
                           ),
@@ -150,7 +150,7 @@ class GuestsPage extends State<GuestsActivity> {
                         children: <Widget>[
                           Icon(
                             Icons.access_time,
-                            color: Colors.grey.shade800,
+                            color: Colors.black,
                             size: 16.0,
                           ),
                           SizedBox(width: 5.0,),
@@ -158,7 +158,7 @@ class GuestsPage extends State<GuestsActivity> {
                               formatTime(guest.guestVisitTime),
                             style: TextStyle(
                               fontSize: 12.0,
-                              color: Colors.black54,
+                              color: Colors.black,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -170,14 +170,14 @@ class GuestsPage extends State<GuestsActivity> {
                         children: <Widget>[
                           Icon(
                             Icons.phone_android,
-                            color: Colors.grey.shade800,
+                            color: Colors.black,
                             size: 16.0,
                           ),
                           SizedBox(width: 5.0,),
                           Text(guest.guestNoPhone,
                             style: TextStyle(
                               fontSize: 12.0,
-                              color: Colors.black54,
+                              color: Colors.black,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -189,14 +189,14 @@ class GuestsPage extends State<GuestsActivity> {
                         children: <Widget>[
                           Icon(
                             Icons.email,
-                            color: Colors.grey.shade800,
+                            color: Colors.black,
                             size: 16.0,
                           ),
                           SizedBox(width: 5.0,),
                           Text(guest.guestEmail,
                             style: TextStyle(
                               fontSize: 12.0,
-                              color: Colors.black54,
+                              color: Colors.black,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -208,14 +208,14 @@ class GuestsPage extends State<GuestsActivity> {
                         children: <Widget>[
                           Icon(
                             Icons.location_on,
-                            color: Colors.grey.shade800,
+                            color: Colors.black,
                             size: 16.0,
                           ),
                           SizedBox(width: 5.0,),
                           Text(guest.guestAddress,
                             style: TextStyle(
                               fontSize: 12.0,
-                              color: Colors.black54,
+                              color: Colors.black,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -338,17 +338,17 @@ class GuestsPage extends State<GuestsActivity> {
       body: Container(
         padding: EdgeInsets.all(18.0),
         decoration: BoxDecoration(
-          color: Colors.brown.shade200,
+          color: Colors.white,
         ),
         child: Card(
           elevation: 4.0,
-          color: Colors.brown.shade100,
+          color: Colors.blue,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
               Radius.circular(8.0),
             ),
             side: BorderSide(
-              color: Colors.brown.shade400,
+              color: Colors.black,
               width: 1.0,
               style: BorderStyle.solid,
             ),
@@ -433,10 +433,10 @@ class GuestsPage extends State<GuestsActivity> {
             showGuestActivity();
           });
         },
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blue,
         tooltip: 'Tambah Tamu',
         child: Icon(Icons.add_circle,
-          color: Colors.black45,
+          color: Colors.white,
         ),
       ),
     );
