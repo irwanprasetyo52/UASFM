@@ -513,4 +513,4 @@ class GuestPage extends State<GuestActivity>{
       ),
     );
   }
-}
+}//agus

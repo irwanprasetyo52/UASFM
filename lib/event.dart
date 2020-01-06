@@ -414,4 +414,4 @@ class EventPage extends State<EventActivity>{
       ),
     );
   }
-}
+}//makbul
